@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/admin/Projects/Quiz.Service/Quiz.Api/Quiz.Api.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\PopQuiz\\Quiz.Api\\Quiz.Api.csproj": {}
   },
   "projects": {
-    "/Users/admin/Projects/Quiz.Service/Quiz.Api/Quiz.Api.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\PopQuiz\\Quiz.Api\\Quiz.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/admin/Projects/Quiz.Service/Quiz.Api/Quiz.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\PopQuiz\\Quiz.Api\\Quiz.Api.csproj",
         "projectName": "Quiz.Api",
-        "projectPath": "/Users/admin/Projects/Quiz.Service/Quiz.Api/Quiz.Api.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Users/admin/Projects/Quiz.Service/Quiz.Api/obj/",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\PopQuiz\\Quiz.Api\\Quiz.Api.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\PopQuiz\\Quiz.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/admin/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +43,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
